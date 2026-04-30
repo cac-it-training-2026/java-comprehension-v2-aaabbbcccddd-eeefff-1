@@ -1,4 +1,4 @@
-package q01_basic.question05;
+package q01_basic.question06;
 
 public class Member extends AbstMember {
 	private int id;
@@ -82,12 +82,12 @@ public class Member extends AbstMember {
 		this.rank = rank;
 	}
 
+	@Override
 	public void buyItem() {
-
-		System.out.println(name + "purchased the item at 50% off ");
 
 	}
 
+	@Override
 	public void showMember() {
 		System.out.println("***MEMBER DATA*** ");
 
