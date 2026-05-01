@@ -1,4 +1,4 @@
-package q01_basic.question06;
+package q01_basic.question07;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -34,6 +34,7 @@ class ConsoleReader {
 		//TODO ここから実装する
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String inputNumberString = reader.readLine();
+		System.out.println("input number>>");
 
 		return Integer.parseInt(inputNumberString);
 
