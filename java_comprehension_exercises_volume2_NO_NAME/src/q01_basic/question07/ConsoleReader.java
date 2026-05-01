@@ -34,6 +34,7 @@ class ConsoleReader {
 		//TODO ここから実装する
 		BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
 		String inputNumberString = reader.readLine();
+		System.out.println("input number>>");
 
 		return Integer.parseInt(inputNumberString);
 
